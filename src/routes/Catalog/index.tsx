@@ -15,7 +15,6 @@ export default function Catalog() {
                         <div className="dscar-painel-card">
                             <CardCar />
                             <CardCar />
-                            <CardCar />
                         </div>
                     </div>
                 </section>

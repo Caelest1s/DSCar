@@ -1,7 +1,8 @@
 #dscar-container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 .dscar-content {
@@ -27,4 +28,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260,1fr));
     grid-gap: 20px;
+}
+
+.dsc-container-feedback {
+    width: 100%;
+    display: grid;
+    background-color: var(--dscar-color-bg-feedback);
 }
