@@ -1,0 +1,26 @@
+.dscar-card {
+    border: 1px solid var(--dscar-color-card-border-primary);
+    border-radius: 10px;
+}
+
+.dscar-card img{
+    margin: 10px 10px;
+}
+
+.dscar-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--dscar-color-font-primary);
+    font-weight: 700;
+}
+
+@media (min-width: 1280px){
+    .dscar-card img {
+        width: 391px;
+        height: 292px;
+    }
+    .dscar-card-title {
+        font-size: 20px;
+    }
+}

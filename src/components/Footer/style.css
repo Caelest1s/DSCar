@@ -1,0 +1,5 @@
+.dsc-container-feedback {
+    width: 100%;
+    display: grid;
+    background-color: var(--dscar-color-bg-feedback);
+}

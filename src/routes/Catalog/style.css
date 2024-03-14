@@ -1,4 +1,4 @@
-#dscar-container-card {
+#dscar-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,20 +12,19 @@
     text-align: center;
 }
 
-.dscar-content h1 {
+.dscar-title {
     color: var(--dscar-color-font-primary);
-    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+@media (min-width: 1280px){
+    .dscar-title {
+        font-size: 32px;
+    }
 }
 
 .dscar-painel-card {
-    /* width: 100%; */
     display: grid;
-    grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(260,1fr));
-}
-
-.dsc-container-feedback {
-    width: 100%;
-    display: grid;
-    background-color: var(--dscar-color-bg-feedback);
+    grid-gap: 20px;
 }

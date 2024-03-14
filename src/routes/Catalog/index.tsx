@@ -1,4 +1,5 @@
-import imgCar from '../../assets/car-card.png';
+import CardCar from '../../components/CardCar';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './style.css';
 
@@ -8,38 +9,38 @@ export default function Catalog() {
             <Header />
 
             <main>
-                <section id="dscar-container-card">
+                <section id="dscar-container">
                     <div className="dscar-content">
-                        <h1>Venha nos visitar</h1>
+                        <h1 className="dscar-title mb-25">Venha nos visitar</h1>
                         <div className="dscar-painel-card">
-                            <div className='dscar-card'>
-                                <div className='dscar-card-img'>
-                                    <img src={imgCar} alt="Audi R8" />
-                                </div>
-                                <div className='dscar-card-description'>Lorem ipsum dolor</div>
-                            </div>
-                            <div className='dscar-card'>
-                                <div className='dscar-card-img'>
-                                    <img src={imgCar} alt="Audi R8" />
-                                </div>
-                                <div className='dscar-card-description'>Lorem ipsum dolor</div>
-                            </div>
+                            <CardCar />
+                            <CardCar />
+                            <CardCar />
                         </div>
                     </div>
                 </section>
 
                 <section className="dsc-container-feedback">
-                    <div>
-                        O que estão dizendo
+                    <h1>O que estão dizendo</h1>
+                    <div className="dscar-content-feedback">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
+                    </div>
+                    <div className="dscar-content-feedback">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
+                    </div>
+                    <div className="dscar-content-feedback">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
+                    </div>
+                    <div className="dscar-content-feedback">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
+                    </div>
+                    <div className="dscar-content-feedback">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
                     </div>
                 </section>
-                <div></div>
-                oiii
             </main>
-            
-            <footer>
-                Footer
-            </footer>
+
+            <Footer />
         </>
     )
 }
