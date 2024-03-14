@@ -1,0 +1,31 @@
+#dscar-container-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dscar-content {
+    width: 100%;
+    margin: 25px 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.dscar-content h1 {
+    color: var(--dscar-color-font-primary);
+    margin-bottom: 25px;
+}
+
+.dscar-painel-card {
+    /* width: 100%; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(260,1fr));
+}
+
+.dsc-container-feedback {
+    width: 100%;
+    display: grid;
+    background-color: var(--dscar-color-bg-feedback);
+}

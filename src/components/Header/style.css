@@ -1,0 +1,19 @@
+.dscar-navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dscar-navbar h1 {
+    color: var(--dscar-color-header-font-primary);
+    width: 135px;
+    height: 30px;
+}
+
+@media (min-width:1280px) {
+    .dscar-navbar h1 {
+        width: 162px;
+        height: 36px;
+    }
+}
