@@ -10,9 +10,11 @@
   
   /* fonts */
   --dscar-color-font-primary: #5E5E5E;
+  --dscar-color-font-secondary: #3C9AF0;
   
   /* border */
   --dscar-color-card-border-primary: #3C9AF0;
+  --dscar-color-card-bg-secondary: #FFFFFF;
 
   /* feedback */
   --dscar-color-bg-feedback: #C8C8C8;

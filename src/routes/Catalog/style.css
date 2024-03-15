@@ -18,7 +18,7 @@
     font-size: 20px;
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1280px) {
     .dscar-title {
         font-size: 32px;
     }
@@ -26,12 +26,29 @@
 
 .dscar-painel-card {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(260, 1fr));
     grid-gap: 20px;
 }
 
-.dsc-container-feedback {
+.dscar-container-feedback {
     width: 100%;
-    display: grid;
+    margin: 0;
+    padding: 25px 20px;
     background-color: var(--dscar-color-bg-feedback);
+}
+
+.dscar-feedback-title {
+    font-size: 20px;
+    color: var(--dscar-color-font-primary);
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (min-width: 1280px) {
+    .dscar-container-feedback {
+        padding: 25px 120px;
+    }
+    .dscar-feedback-title {
+        font-size: 32px;
+    }
 }

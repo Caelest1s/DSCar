@@ -1,4 +1,5 @@
 import CardCar from '../../components/CardCar';
+import CardFeedback from '../../components/CardFeedback';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './style.css';
@@ -7,7 +8,6 @@ export default function Catalog() {
     return (
         <>
             <Header />
-
             <main>
                 <section id="dscar-container">
                     <div className="dscar-content">
@@ -19,26 +19,16 @@ export default function Catalog() {
                     </div>
                 </section>
 
-                <section className="dsc-container-feedback">
-                    <h1>O que estão dizendo</h1>
-                    <div className="dscar-content-feedback">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
-                    </div>
-                    <div className="dscar-content-feedback">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
-                    </div>
-                    <div className="dscar-content-feedback">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
-                    </div>
-                    <div className="dscar-content-feedback">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
-                    </div>
-                    <div className="dscar-content-feedback">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae harum voluptatem ad fugit id distinctio.</h4>
-                    </div>
+                <section className="dscar-container-feedback">
+                    <h1 className="dscar-feedback-title mb-25">O que estão dizendo</h1>
+                    <CardFeedback />
+                    <CardFeedback />
+                    <CardFeedback />
+                    <CardFeedback />
+                    <CardFeedback />
+                    <CardFeedback />
                 </section>
             </main>
-
             <Footer />
         </>
     )
